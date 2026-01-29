@@ -55,7 +55,7 @@ asyncio.run(scan())
 Edit `proxlock_hightech.py`:
 
 ```python
-TARGET_ADDRESS = "D4:5B:51:9C:4B:A0"  # Your device's MAC address
+TARGET_ADDRESS = ""  # Your device's bluetooth address
 
 RSSI_THRESHOLD = -90      # Lock when signal drops below this (dBm)
 RSSI_TIME = 5             # Stay below threshold for this long (seconds)
